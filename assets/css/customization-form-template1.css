@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap');
+
+.customization-form {
+    max-width: 480px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.customization-form h3 {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #1976d2;
+    text-align: center;
+}
+.customization-form .form-label {
+    font-weight: 500;
+    color: #222;
+}
+.customization-form .form-control,
+.customization-form .form-control-color {
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+}
+.customization-form .form-control:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 0 2px #e3f0ff;
+}
+.customization-form .form-control-color {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.2rem;
+    border: none;
+    background: #f6f7fa;
+}
+.customization-form input[type="file"] {
+    padding: 0.3rem 0.5rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+#bannerPreview img {
+    max-width: 100%;
+    max-height: 120px;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    box-shadow: 0 2px 8px rgba(25,118,210,0.08);
+}
+.customization-form button[type="submit"] {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    padding: 0.7rem 0;
+    background: #1976d2;
+    border: none;
+    transition: background 0.2s;
+}
+.customization-form button[type="submit"]:hover {
+    background: #1251a3;
+}
+@media (max-width: 600px) {
+    .customization-form {
+        padding: 1rem !important;
+        max-width: 98vw;
+    }
+    .customization-form h3 {
+        font-size: 1.2rem;
+    }
+} 

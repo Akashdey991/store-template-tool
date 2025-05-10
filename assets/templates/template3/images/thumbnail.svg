@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="180" viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sidebar -->
+    <rect x="0" y="0" width="48" height="180" fill="#f8e5c2"/>
+    <!-- Header/Banner -->
+    <rect x="48" y="0" width="252" height="32" fill="#fff3e0"/>
+    <rect x="70" y="10" width="60" height="8" fill="#b77b2b" rx="2"/>
+    <!-- Product Grid -->
+    <rect x="70" y="60" width="50" height="40" fill="#fffaf3" stroke="#b77b2b" stroke-width="2" rx="8"/>
+    <rect x="130" y="60" width="50" height="40" fill="#fffaf3" stroke="#b77b2b" stroke-width="2" rx="8"/>
+    <rect x="190" y="60" width="50" height="40" fill="#fffaf3" stroke="#b77b2b" stroke-width="2" rx="8"/>
+    <!-- Footer -->
+    <rect x="48" y="160" width="252" height="16" fill="#f5deb3"/>
+</svg>

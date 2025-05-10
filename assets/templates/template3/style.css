@@ -1,0 +1,124 @@
+/* Classic Store Template CSS */
+
+:root {
+    --sidebar-bg: #f8e5c2;
+    --primary-color: #b77b2b;
+    --secondary-color: #fff3e0;
+    --accent-color: #ffc107;
+    --text-color: #4e342e;
+    --footer-bg: #f5deb3;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    color: var(--text-color);
+    background: #fffaf3;
+}
+
+.bg-sidebar {
+    background: var(--sidebar-bg);
+    min-height: 100vh;
+    border-right: 2px solid #f5deb3;
+}
+
+.sidebar .nav-link {
+    color: var(--text-color);
+    font-weight: 500;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.sidebar .nav-link.active, .sidebar .nav-link:hover {
+    background: var(--accent-color);
+    color: #fff;
+}
+
+.banner {
+    background: var(--secondary-color);
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(183,123,43,0.08);
+    padding: 2.5rem 2rem;
+}
+
+.banner h1 {
+    color: var(--primary-color);
+    font-family: 'Georgia', serif;
+}
+
+.banner .btn-warning {
+    font-weight: 600;
+    padding: 0.7rem 2rem;
+    font-size: 1.1rem;
+}
+
+.product-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(183,123,43,0.08);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card .card-title {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.product-card .btn-outline-warning {
+    border-color: var(--accent-color);
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+.product-card .btn-outline-warning:hover {
+    background: var(--accent-color);
+    color: #fff;
+}
+
+.contact h2 {
+    color: var(--primary-color);
+    font-family: 'Georgia', serif;
+}
+
+.footer {
+    background: var(--footer-bg);
+    color: var(--text-color);
+    font-size: 1rem;
+    border-radius: 8px 8px 0 0;
+}
+
+.footer a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.footer a:hover {
+    color: var(--accent-color);
+}
+
+@media (max-width: 991px) {
+    .sidebar {
+        min-height: auto;
+    }
+    .banner {
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        display: none;
+    }
+    main {
+        padding: 1rem !important;
+    }
+    .banner h1 {
+        font-size: 2rem;
+    }
+}

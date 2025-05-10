@@ -1,0 +1,54 @@
+<!-- Template 4 Customization Form -->
+<div class="customization-form">
+    <h3>Template 4 Customization</h3>
+    <form id="template4CustomizationForm">
+        <!-- Store Name -->
+        <div class="mb-3">
+            <label for="storeName" class="form-label">Store Name</label>
+            <input type="text" class="form-control" id="storeName" name="storeName" required>
+        </div>
+
+        <!-- Store Logo -->
+        <div class="mb-3">
+            <label for="storeLogo" class="form-label">Store Logo</label>
+            <input type="file" class="form-control" id="storeLogo" name="storeLogo" accept="image/*">
+            <div id="logoPreview" class="mt-2"></div>
+        </div>
+
+        <!-- Primary Color -->
+        <div class="mb-3">
+            <label for="primaryColor" class="form-label">Primary Color</label>
+            <input type="color" class="form-control form-control-color" id="primaryColor" name="primaryColor" value="#4a90e2">
+        </div>
+
+        <!-- Secondary Color -->
+        <div class="mb-3">
+            <label for="secondaryColor" class="form-label">Secondary Color</label>
+            <input type="color" class="form-control form-control-color" id="secondaryColor" name="secondaryColor" value="#f5f5f5">
+        </div>
+
+        <!-- Font Style -->
+        <div class="mb-3">
+            <label for="fontStyle" class="form-label">Font Style</label>
+            <select class="form-select" id="fontStyle" name="fontStyle">
+                <option value="roboto">Roboto</option>
+                <option value="opensans">Open Sans</option>
+                <option value="montserrat">Montserrat</option>
+                <option value="poppins">Poppins</option>
+            </select>
+        </div>
+
+        <!-- Layout Style -->
+        <div class="mb-3">
+            <label for="layoutStyle" class="form-label">Layout Style</label>
+            <select class="form-select" id="layoutStyle" name="layoutStyle">
+                <option value="grid">Grid</option>
+                <option value="list">List</option>
+                <option value="masonry">Masonry</option>
+            </select>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="btn btn-primary w-100 mt-3">Save Customization</button>
+    </form>
+</div> 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="180" viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#ff6a00"/>
+            <stop offset="100%" stop-color="#ee0979"/>
+        </linearGradient>
+    </defs>
+    <!-- Gradient Header -->
+    <rect x="0" y="0" width="300" height="28" fill="url(#g1)"/>
+    <!-- Abstract Shapes -->
+    <ellipse cx="260" cy="38" rx="18" ry="12" fill="#ee0979" opacity="0.18"/>
+    <ellipse cx="60" cy="38" rx="14" ry="8" fill="#ff6a00" opacity="0.18"/>
+    <!-- Product Grid -->
+    <rect x="30" y="70" width="60" height="40" rx="10" fill="#fff" stroke="#ee0979" stroke-width="2"/>
+    <rect x="120" y="70" width="60" height="40" rx="10" fill="#fff" stroke="#ff6a00" stroke-width="2"/>
+    <rect x="210" y="70" width="60" height="40" rx="10" fill="#fff" stroke="#ee0979" stroke-width="2"/>
+    <!-- Footer -->
+    <rect x="0" y="160" width="300" height="16" fill="#fff" stroke="#ee0979" stroke-width="1"/>
+    <!-- Decorative Lines -->
+    <rect x="0" y="60" width="300" height="2" fill="#ee0979" opacity="0.12"/>
+    <rect x="0" y="120" width="300" height="2" fill="#ff6a00" opacity="0.12"/>
+</svg>

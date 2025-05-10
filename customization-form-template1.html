@@ -1,0 +1,26 @@
+<form id="customize-template1" class="customization-form p-4 rounded-4 bg-white shadow-sm">
+    <h3 class="mb-4" style="font-family: 'Montserrat', Arial, sans-serif; font-weight:700;">Customize Minimalist Template</h3>
+    <div class="mb-3">
+        <label for="storeName" class="form-label">Store Name</label>
+        <input type="text" class="form-control" id="storeName" name="storeName" placeholder="Enter your store name" required>
+    </div>
+    <div class="mb-3">
+        <label for="logo" class="form-label">Store Logo</label>
+        <input class="form-control" type="file" id="logo" name="logo" accept="image/*">
+        <div id="logoPreview" class="mt-2"></div>
+    </div>
+    <div class="mb-3">
+        <label for="primaryColor" class="form-label">Primary Color</label>
+        <input type="color" class="form-control form-control-color" id="primaryColor" name="primaryColor" value="#1976d2" title="Choose your color">
+    </div>
+    <div class="mb-3">
+        <label for="bannerImage" class="form-label">Banner Image</label>
+        <input class="form-control" type="file" id="bannerImage" name="bannerImage" accept="image/*">
+        <div id="bannerPreview" class="mt-2"></div>
+    </div>
+    <div class="mb-3">
+        <label for="welcomeText" class="form-label">Welcome Text</label>
+        <input type="text" class="form-control" id="welcomeText" name="welcomeText" placeholder="Welcome to our store!">
+    </div>
+    <button type="submit" class="btn btn-primary w-100 mt-3">Save Customization</button>
+</form> 
